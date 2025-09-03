@@ -1,0 +1,28 @@
+{
+  "name": "dummy-server-with-auth",
+  "description": "Mock API server with authentication",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "start": "nodemon --watch db.json --watch server.js server.js"
+  },
+  "keywords": [
+    "json-server",
+    "auth",
+    "mock-api",
+    "rest"
+  ],
+  "author": "Kashif Aslam",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.10"
+  }
+}

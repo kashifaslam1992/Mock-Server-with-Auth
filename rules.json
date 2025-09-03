@@ -1,0 +1,17 @@
+
+{
+  "users": 600,
+  "posts": {
+    "read": true,
+    "create": 660,
+    "update": 660,
+    "delete": 660
+  },
+  "comments": {
+    "read": true,
+    "create": 660,
+    "update": 660,
+    "delete": 660
+  },
+  "admin": 640
+}
