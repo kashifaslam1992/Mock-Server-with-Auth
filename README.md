@@ -1,3 +1,9 @@
+# Get Started
+- npm i
+- npm start
+
+Server will start running at http://localhost:8000
+
 # Explanation of Permissions
 
 - 640 – means only users with "role": "admin" can access the resource.
@@ -12,3 +18,4 @@ So in this example rules.json file:
 - Admin resource is restricted to admins only (640)
 
 To use the rules.json file in your server.js setup with json-server-auth, you simply need to place the rules.json file in the root directory of your project. json-server-auth automatically looks for it and applies the rules when handling requests.
+
